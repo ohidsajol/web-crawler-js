@@ -1,26 +1,26 @@
 {
-  "name": "web-crawler",
-  "version": "1.0.0",
-  "description": "a web crawler written in javascript",
-  "main": "main.js",
-  "scripts": {
-    "start": "node main.js",
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ohidsajol/web-crawler-js.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ohidsajol/web-crawler-js/issues"
-  },
-  "homepage": "https://github.com/ohidsajol/web-crawler-js#readme",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  },
-  "dependencies": {
-    "jsdom": "^26.1.0"
-  }
+    "name": "web-crawler",
+    "version": "1.0.0",
+    "description": "a web crawler written in javascript",
+    "main": "main.js",
+    "scripts": {
+        "start": "node --no-warnings main.js",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ohidsajol/web-crawler-js.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ohidsajol/web-crawler-js/issues"
+    },
+    "homepage": "https://github.com/ohidsajol/web-crawler-js#readme",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "dependencies": {
+        "jsdom": "^26.1.0"
+    }
 }
