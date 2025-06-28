@@ -60,6 +60,7 @@ function getURLsFromHTML(htmlBody, baseURL) {
         } else {
             // absolute
             try {
+                console.log(linkElement.href);
                 const urlObj = new URL(linkElement.href);
                 urls.push(urlObj.href);
             } catch (err) {
